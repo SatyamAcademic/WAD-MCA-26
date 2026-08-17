@@ -1,0 +1,27 @@
+h1{
+    color: red;
+}
+
+/* Descendet Selector */
+/* .card a {
+    color: red;
+} */
+
+/* Child Selctor */
+.card > a{
+    color: red;
+}
+
+/* Pseudo Selector */
+/* a:hover {
+    font-size: 22px;
+} */
+ /* .card > a:hover {
+    font-size: 30px;
+ } */
+
+
+ /* Attribute selector */
+ input[type="text"] {
+    font-size: 30px;
+ }
