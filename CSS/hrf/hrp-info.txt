@@ -1,0 +1,41 @@
+body
+	#f5f4f0
+	#333
+link
+	#173d38
+
+Button
+	#163b34
+
+Motivation
+	heading: #4e6a44;
+	para: #6b6b6b
+CTA
+	#163b34
+
+
+Healthy meals, zero fuss
+Discover eight quick, whole-food recipes that you can cook tonight —no processed junk, no guesswork.
+
+
+What you'll get
+
+
+Whole-food recipes
+Each dish uses everyday, unprocessed ingredients.
+
+Minimum fuss
+All recipes are designed to make eating healthy quick and easy.
+
+Search in seconds
+Filter by name or ingredient and jump straight to the recipe you need.
+
+
+Built for real life
+Cooking shouldn't be complicated. These recipes come in under 30 minutes of active time, fit busy schedules, and taste good enough to repeat.
+Whether you're new to the kitchen or just need fresh ideas, we've got you covered.
+
+
+Ready to cook smarter?
+Hit the button, pick a recipe, and get dinner on the table—fast.
+Browse recipes

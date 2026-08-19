@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f5f4f0;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.btn {
+    background-color: #163b34;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+section {
+    padding: 50px 0px;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    border-bottom: 1px solid #ddd;
+}
+.logo-continer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+}
+.nav-link {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-link a{
+    color: #173d38;
+    font-weight: 600;
+}
+
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.hero p {
+    margin-bottom: 16px;
+}
+
+/* hero image */
+.hero-img{
+    width: 100%;
+    border: 10px solid #fff;
+    border-radius: 8px;
+}
+
+/* feature */
+.feature h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-card{
+    width: 350px;
+
+.icon-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+}
+.icon {
+    font-size: 40px;
+}
+.fa-carrot {
+    color: #ffa500;
+}
+.fa-utensils{
+    color: #008000;
+}
+.fa-magnifying-glass{
+    color: #0000ff;
+}
+.feature-card h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* Motivation */
+.m-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.left {
+    width: 40%;
+}
+.right{ 
+    width: 60%;
+}
+.left h2{
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+.left p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+.right img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* CTA */
+.cta{
+    background-image: url('./../images/cutlery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 8px;
+    padding: 100px 0px;
+}
+.cta h2{
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+.cta p {
+    margin-bottom: 16px;
+}
+/* Contact Us */
+.c-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 40px;
+}
+.c-container > * {
+    width: 50%;
+}
+.c-container h2{
+    font-size: 35px;
+    margin-bottom: 16px;
+}
+.c-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+.input {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #173d38;
+    border-radius: 4px;
+}
+.btn-send{
+    border: none;
+    color: #fff;
+}
+.form-group{
+    margin-bottom: 12px;
+}
+.c-container ul {
+    list-style-type: none;
+}
+.c-container ul li {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.social-links a{
+    color: #000;
+    font-size: 20px;
+}
